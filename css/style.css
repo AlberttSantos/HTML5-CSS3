@@ -1,0 +1,52 @@
+* {
+    margin:0;
+    padding:0;
+    font-family: Arial;
+   }
+
+.main{
+  background-color: #ccc;
+  width:  1200px;
+  margin: auto;
+  margin-top: 20px;
+  padding: 5px;
+
+}
+
+header {
+  background-color: #FFF;
+  width: 1200px;
+  height: 200px
+}
+
+nav{
+  background-color: #FFF;
+  margin-top: 5px;
+  width: 1200px;
+  height: 80px;
+ }
+
+section{
+  background-color: #FFF;
+  margin-top: 5px;
+  width: 800px;
+  height: 500px;
+  float: left;
+}
+
+aside{
+  background-color: #FFF;
+  margin-top: 5px;
+  width: 395px;
+  height: 500px;
+  float: left;
+  margin-left: 5px;
+  margin-bottom: 5px;
+}
+
+footer{
+  background-color: #FFF;
+   width: 1200px;
+  height: 100px;
+  clear: both; /*limpar elementos que estão flutuando*/
+}
