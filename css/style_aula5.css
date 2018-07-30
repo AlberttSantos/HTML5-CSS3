@@ -1,0 +1,46 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+
+/* Pegar fonte do Google pra testar - Aula 5*/
+p{
+    font-family: Arial;
+    font-size: 12px
+}
+
+img{
+    width: 100%;
+   }
+
+.container{
+    background-color: #ddd;
+    width: 80%;
+    margin: auto;
+    padding: auto;
+    display: flex; /* colocar uma imagem do lado da outra */
+    justify-content: space-between; /* coloca o 1 elemento totalmente a esquerda o 2 centraliza e o 3 totalmente a direita */
+    flex-wrap: wrap; /*serve para quebrar a linha caso não tenha mais espaço no container */
+ 
+}
+
+figure{
+    padding: 5px;
+    text-align: center;
+    width: 31%;
+    height: auto;
+    border: 1px solid #000;
+    margin-bottom: 5px;
+    
+  }
+
+figcaption{
+    margin-top: 2px;
+    margin-bottom: 3px;
+}
+
+.legenda{
+    font-family: Arial;
+    font-size: 15px;
+}
